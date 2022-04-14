@@ -72,11 +72,11 @@ class Solution:
 
 
 s = Solution
-arr = [5, 1, 2, 6, 4, 4, 5]
+arr = [5, 1, 2, 4, 6, 4, 4, 5]
 print(s.solve0(arr))
 print(s.solve(arr))
 print(s.solve1(arr))
 print(s.solve2(arr))
 print(s.solve3(arr))
-print(s.solve4(arr))
+print(s.solve4([5, 1, 2, 6, 4, 4, 5]))
 print(s.solve5([], arr))
